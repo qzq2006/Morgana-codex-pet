@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "row9": {
+    "directions": ["000", "022.5", "045", "067.5", "090", "112.5", "135", "157.5"],
+    "status": "pass"
+  },
+  "row10": {
+    "directions": ["180", "202.5", "225", "247.5", "270", "292.5", "315", "337.5"],
+    "status": "pass"
+  },
+  "boundaries": {
+    "157.5_to_180": "pass",
+    "337.5_to_000": "pass"
+  },
+  "identity": "Original Morgana identity retained; Zorro is absent from both look rows.",
+  "failing_indices": []
+}

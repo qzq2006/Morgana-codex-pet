@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "pet_id": "morgana-zorro",
+  "display_name": "Morgana + Zorro",
+  "sprite_version_number": 2,
+  "atlas": {
+    "path": "final/spritesheet-extended.webp",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "sha256": "00C4BBF49FE0917FCA260F42F76AD3ADD01B15978D06333C2ADBE9C97E97DD6B"
+  },
+  "official_zorro_reference": {
+    "path": "references/official-zorro.png",
+    "sha256": "896243AF3DA5A9F941DA31A7F321A4B01E790BA61FB964A443AE46CF83798FC8"
+  },
+  "changed_standard_states": ["failed", "running", "review"],
+  "preserved_standard_states": ["idle", "running-right", "running-left", "waving", "jumping", "waiting"],
+  "qa": {
+    "atlas_validation": "pass",
+    "persona_row_structure": "pass",
+    "official_zorro_identity": "pass",
+    "cardinal_hard_gates": "pass",
+    "direction_blind_validation": "pass_with_documented_minor_intermediate_warnings",
+    "continuity": "pass_with_intentional_negative-space_resolution",
+    "final_visual_qa": "pass"
+  }
+}

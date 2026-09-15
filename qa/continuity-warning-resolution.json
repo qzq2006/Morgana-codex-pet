@@ -1,0 +1,7 @@
+{
+  "status": "accepted",
+  "reviewed_artifact": "qa/look-directions.png",
+  "warning_source": "qa/look-continuity.json",
+  "resolution": "The reported transparent spans are intentional negative spaces between ears, legs, feet, arms, torso, and tail. No transparent hole crosses filled head, face, eyes, scarf, torso, or limb anatomy.",
+  "independent_visual_qa": "pass"
+}

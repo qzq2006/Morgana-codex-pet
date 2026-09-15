@@ -1,0 +1,11 @@
+{
+  "visual_qa": "pass",
+  "repair_notes": [],
+  "evidence": [
+    "Rows 0-4 and 6 preserve the original Morgana frames pixel-identically.",
+    "Zorro appears only in failed, running, and review.",
+    "Zorro retains the user-supplied official giant inverted-triangle silhouette, huge puff sleeves and fists, silver beaked yellow-eyed mask, thin legs, wing-like cape, ornate waist, and rapier.",
+    "Running reads as summon into sword strike; review as restrained sword presentation; failed as physical folding and disappearance.",
+    "The Morgana-only v2 look loop is coherent, identity-stable, and passes all four cardinal hard gates."
+  ]
+}

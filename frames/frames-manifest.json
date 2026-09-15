@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "failed",
+      "frames": [
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\failed\\00.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\failed\\01.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\failed\\02.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\failed\\03.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\failed\\04.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\failed\\05.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\failed\\06.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\failed\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running",
+      "frames": [
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\running\\00.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\running\\01.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\running\\02.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\running\\03.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\running\\04.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\running\\05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "review",
+      "frames": [
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\review\\00.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\review\\01.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\review\\02.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\review\\03.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\review\\04.png",
+        "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\frames\\review\\05.png"
+      ],
+      "method": "components"
+    }
+  ]
+}

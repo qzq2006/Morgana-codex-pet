@@ -1,0 +1,17 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "hard_gates": {
+    "horizontal_090_vs_270": "pass",
+    "vertical_000_vs_180": "pass"
+  },
+  "failed_checks": [
+    "horizontal-1 B: 022.5 horizontal cue ambiguous",
+    "horizontal-7 B: 202.5 horizontal cue ambiguous",
+    "vertical-3 B: 135 vertical cue ambiguous",
+    "vertical-4 A/B: 112.5 and 067.5 vertical cues ambiguous",
+    "vertical-7 B: 292.5 vertical cue ambiguous"
+  ],
+  "evidence": "All four cardinal hard gates pass. Labeled normal-size review confirms a smooth clockwise loop with no reversals, stable baseline and scale, and correct principal quadrants. Continuity metrics pass; reported alpha spans were independently confirmed as intentional negative spaces. The ambiguous votes affect only intermediate near-axis cues and are therefore minor under the hatch-pet acceptance policy."
+}
