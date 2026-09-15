@@ -15,12 +15,15 @@ State requirements:
 - Do not show literal foot-running, jogging, sprinting, treadmill motion, raised knees, long steps, pumping arms, directional travel, speed lines, dust clouds, floor shadows, motion trails, or detached motion effects.
 
 Persona Edition action, left to right:
-- Frame 1: Morgana plants his feet and focuses, alone in the foreground.
-- Frame 2: Zorro begins rising directly behind Morgana, already overlapping his back and shoulders.
-- Frame 3: Zorro is fully readable behind Morgana and draws the sword upward.
-- Frame 4: Zorro reaches a strong raised-sword anticipation pose while Morgana commands the action.
-- Frame 5: Zorro performs a decisive diagonal sword strike using pose only, with no slash line or detached effect.
-- Frame 6: Zorro retracts toward the overlapping summon pose so the loop can return smoothly to frame 1.
-- Keep Zorro opaque, visibly much larger and more top-heavy than Morgana while fitting safely inside each slot, physically overlapping him in every frame where present. The giant shoulders and fists, tiny beaked yellow-eyed mask, extremely thin long legs, wing-like cape tails, ornate waist, and rapier must remain recognizable.
+- Make a quiet closed working loop, not a summon or disappearance sequence. Zorro is already fully present directly behind and overlapping Morgana in every frame.
+- Lock both characters' feet, lower torso, overall scale, and shared center to the same position in all six frames. Keep Zorro's torso, legs, shoulders, and cape nearly stationary.
+- Frame 1: compact ready pose, Zorro's sword held at a low guarded diagonal; Morgana focuses forward.
+- Frame 2: raise only Zorro's sword forearm by about 10 degrees; Morgana's eyes begin tracking it.
+- Frame 3: raise the sword another 10 degrees; add a tiny shoulder follow-through and a one-frame-late scarf/tail response.
+- Frame 4: perform one short controlled diagonal work stroke using the sword arm only; no lunge, scale change, body translation, or silhouette explosion.
+- Frame 5: return through the Frame 3 pose.
+- Frame 6: return through the Frame 2 pose so the transition back to Frame 1 is very small.
+- Preserve Zorro's giant shoulders and fists, tiny beaked yellow-eyed mask, thin long legs, wing-like cape tails, ornate waist, and rapier, but prioritize stable registration and small evenly spaced motion over dramatic action.
+- The six poses must read as A-B-C-D-C-B, with Frame 6 adjacent to Frame 1 and no popping at the loop boundary.
 
 Clean extraction: crisp opaque edges, safe padding, no scenery, text, guide marks, checkerboard, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or chroma-key colors inside the pet.

@@ -1,0 +1,4 @@
+# Local generation and comparison workspace
+revisions/
+decoded/*-smoother-v*.png
+references/current-jumping-row.png

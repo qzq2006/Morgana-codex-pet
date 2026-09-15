@@ -16,11 +16,17 @@ State requirements:
 - Do not draw red X marks, floating symbols, detached stars, separated smoke clouds, falling tear drops, dust, or other loose effects.
 
 Persona Edition action, left to right:
-- Frame 1 begins with Zorro fully present directly behind and overlapping Morgana, but both already look weakened.
-- Frames 2-3 lower Zorro's sword and shoulders while Morgana's ears and posture droop.
-- Frames 4-6 fold Zorro's cape and body inward behind Morgana, progressively hiding him through physical occlusion rather than transparency.
-- Frame 7 leaves only a small attached portion of Zorro's upper silhouette touching Morgana's shoulder line.
-- Frame 8 shows Morgana alone in a settled sad pose, ready to loop back to the initial failed reaction.
-- Never use transparent fading, ghost copies, detached fragments, smoke, particles, or glow to depict disappearance.
+- Make a closed defeated breathing loop. Zorro remains physically present, collapsed and partly occluded directly behind Morgana in all eight frames; never make him disappear.
+- Lock both characters' feet, lower torso, overall scale, and shared center. Zorro's sword stays lowered and attached throughout.
+- Frame 1: settled sad pose, Morgana slumped and Zorro folded low behind him.
+- Frame 2: shoulders and ears sink slightly; Zorro lowers by only a few pixels.
+- Frame 3: deepen the slump with a small inward cape fold.
+- Frame 4: approach the lowest point with restrained compression.
+- Frame 5: lowest defeated pose; preserve anatomy and keep Zorro readable.
+- Frame 6: return through the Frame 4 pose.
+- Frame 7: return through the Frame 3 pose.
+- Frame 8: return through the Frame 2 pose so the transition back to Frame 1 is very small.
+- The eight poses must read as A-B-C-D-E-D-C-B. Use only small evenly spaced vertical and shoulder changes; no large width changes, no sudden occlusion, and no silhouette appearing or vanishing at the loop boundary.
+- Never use transparent fading, ghost copies, detached fragments, smoke, particles, or glow.
 
 Clean extraction: crisp opaque edges, safe padding, no scenery, text, guide marks, checkerboard, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or chroma-key colors inside the pet.
