@@ -2,6 +2,7 @@
   "status": "complete",
   "pet_id": "morgana-zorro",
   "display_name": "Morgana + Zorro",
+  "release_status": "final",
   "sprite_version_number": 2,
   "atlas": {
     "path": "final/spritesheet-extended.webp",
@@ -26,11 +27,23 @@
     "cardinal_hard_gates": "pass",
     "direction_blind_validation": "pass_with_documented_minor_intermediate_warnings",
     "continuity": "pass_with_intentional_negative-space_resolution",
-    "final_visual_qa": "pass_after_full_running_row_repair",
     "directional_gait_continuity": "pass_contact_absorb_push_flight",
     "idle_liveliness": "pass_layered_breath_blink_ear_tail_motion",
     "active_work_power": "pass_connected_single_rapier_force_arc",
     "running_arm_visibility": "pass_all_16_directional-running_frames",
-    "installed_hash_match": true
-  }
+    "final_visual_qa": "pass_independent_release_review",
+    "package_hash_match": true,
+    "release_cleanup": "pass_removed_build_intermediates_and_stale_absolute_paths"
+  },
+  "retained_release_artifacts": [
+    "package/pet.json",
+    "package/spritesheet.webp",
+    "final/spritesheet-extended.webp",
+    "final/spritesheet-extended.json",
+    "final/validation-extended.json",
+    "qa/contact-sheet-extended.png",
+    "qa/previews",
+    "qa/final-visual-qa.json",
+    "qa/release-audit.json"
+  ]
 }

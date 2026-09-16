@@ -1,4 +1,4 @@
-# Morgana Codex Pet 
+# Morgana Codex Pet
 
 一个以《女神异闻录 5》摩尔加纳（Morgana）和人格面具 Zorro 为主题的 Codex 桌宠。
 
@@ -60,13 +60,13 @@ Copy-Item -LiteralPath ".\package\spritesheet.webp" -Destination $petDir -Force
 
 ```text
 package/      可直接安装的 pet.json 和 spritesheet.webp
-final/        标准图集、v2 扩展图集及验证结果
-frames/       按状态拆分的 192×208 透明帧
-decoded/      AI 生成并通过筛选的原始横向动画条
-prompts/      各状态的生成提示词与返修提示词
-references/   Morgana、Zorro 和布局参考图
-qa/           联系表、动画预览和自动/人工 QA 记录
+final/        最终 v2 图集、布局清单和结构验证结果
+references/   用于确认角色身份的源参考图
+qa/           最终联系表、动画预览和发布 QA 证据
+pet_request.json  可移植的宠物规格与状态定义
 ```
+
+仓库只保留最终发布与审计所需文件。生成提示词、横向生成条、拆分帧、8×9 中间图集和本地返修工作区不属于发布内容。
 
 ## 预览
 
@@ -79,7 +79,7 @@ qa/           联系表、动画预览和自动/人工 QA 记录
 - [`waiting.gif`](qa/previews/waiting.gif)
 - [`review.gif`](qa/previews/review.gif)
 
-标准 9 行总览见 [`qa/contact-sheet.png`](qa/contact-sheet.png)，包含观察方向的完整 v2 总览见 [`qa/contact-sheet-extended.png`](qa/contact-sheet-extended.png)。
+包含全部状态和观察方向的总览见 [`qa/contact-sheet-extended.png`](qa/contact-sheet-extended.png)。
 
 ## 验证状态
 
@@ -87,19 +87,12 @@ qa/           联系表、动画预览和自动/人工 QA 记录
 
 - 8 × 11、1536 × 2288 的 Codex Pet v2 结构校验。
 - 所有必需状态帧存在，未使用的格子保持透明。
-- 无不透明洋红色键残留或透明 RGB 残留。
+- 洋红色键像素与边缘污染均低于验证阈值，透明 RGB 残留为 0。
 - 左右跑步、待机和工作循环通过独立逐帧视觉复核。
-- `final/spritesheet-extended.webp`、`package/spritesheet.webp` 与本地安装包 SHA-256 一致。
+- `final/spritesheet-extended.webp` 与 `package/spritesheet.webp` 的 SHA-256 一致。
 
-详细结果位于 [`qa/run-summary.json`](qa/run-summary.json) 和 [`qa/motion-natural-power-final-qa.json`](qa/motion-natural-power-final-qa.json)。
+详细结果位于 [`qa/release-audit.json`](qa/release-audit.json)、[`qa/package-validation.json`](qa/package-validation.json) 和 [`qa/final-visual-qa.json`](qa/final-visual-qa.json)。
 
-## 修改动画
+## 发布说明
 
-每个状态应以完整动画行为单位进行返修，不建议只替换单帧。推荐流程：
-
-1. 更新 `prompts/rows` 或 `prompts/row-retries` 中对应状态的提示词。
-2. 生成完整横向动画条并保存到 `decoded`。
-3. 拆分到 `frames/<state>`，检查帧数、边缘、比例和循环连续性。
-4. 重新合成标准图集与 v2 扩展图集。
-5. 对最终扩展图集执行透明边缘处理、结构验证和逐帧视觉 QA。
-6. 只有通过全部检查后，才更新 `package/spritesheet.webp`。
+当前仓库是最终发布版。安装时只需要复制 `package` 中的两个文件；`final` 和 `qa` 用于复核发布内容，不参与运行。

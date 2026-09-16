@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "input": "E:\\chatgpt\\morgana-pet-v2\\revisions\\motion-natural-power-v1\\final\\spritesheet-extended-v2-raw.png",
-  "output": "E:\\chatgpt\\morgana-pet-v2\\revisions\\motion-natural-power-v1\\final\\spritesheet-extended-v2.png",
+  "input": "build-intermediate/spritesheet-extended-raw.png (not retained)",
+  "output": "final/spritesheet-extended.webp",
   "chroma_key": "#FF00FF",
   "algorithm": "edge-local-chroma-spill-suppression",
   "strength": 1,

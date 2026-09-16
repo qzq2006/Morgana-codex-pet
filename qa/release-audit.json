@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "release_status": "final",
+  "release_file_count": 38,
+  "sprite_version_number": 2,
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "sha256": "851FA386B9D6CCCDAC0605F7849E5D276BB489605348367AF136B05B936E3EBA"
+  },
+  "checks": {
+    "final_atlas_validation": "pass",
+    "package_validation": "pass",
+    "final_and_package_hash_match": true,
+    "frame_review": "pass_with_reviewed_stable_slots_warning_for_jumping",
+    "blind_direction_cardinals": "pass",
+    "direction_semantics_complete": true,
+    "continuity_warnings_resolved": true,
+    "independent_final_visual_qa": "pass",
+    "readme_local_links": "pass",
+    "portable_text_paths": "pass_no_absolute_local_paths"
+  },
+  "cleanup": {
+    "removed_from_release": [
+      "generated row strips",
+      "extracted frame intermediates",
+      "generation prompts and job manifest",
+      "layout guides",
+      "8x9 intermediate atlases",
+      "raw and PNG assembly intermediates",
+      "superseded repair QA",
+      "duplicate Morgana reference image"
+    ],
+    "untracked_build_workspace_archived_outside_repository": true
+  }
+}

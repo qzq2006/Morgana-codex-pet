@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames",
+  "frames_root": "frames",
   "states": [
     "idle",
     "running-right",
@@ -13,106 +13,108 @@
     "review"
   ],
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "jumping used extraction method stable-slots; component extraction is preferred"
+  ],
   "rows": [
     {
       "state": "idle",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": null,
+      "extraction_method": "components",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\idle\\00.png",
+          "file": "frames\\idle\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14255,
+          "nontransparent_pixels": 16451,
           "bbox": [
-            31,
-            12,
-            161,
-            199
+            25,
+            5,
+            166,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 109
         },
         {
           "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\idle\\01.png",
+          "file": "frames\\idle\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14245,
+          "nontransparent_pixels": 15722,
           "bbox": [
-            31,
-            12,
-            160,
-            199
+            27,
+            5,
+            164,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 112
         },
         {
           "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\idle\\02.png",
+          "file": "frames\\idle\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14306,
+          "nontransparent_pixels": 16942,
           "bbox": [
-            32,
-            12,
-            160,
-            199
+            25,
+            5,
+            167,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 111
         },
         {
           "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\idle\\03.png",
+          "file": "frames\\idle\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14200,
+          "nontransparent_pixels": 16575,
           "bbox": [
-            32,
-            12,
-            159,
-            199
+            25,
+            5,
+            166,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 112
         },
         {
           "index": 4,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\idle\\04.png",
+          "file": "frames\\idle\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14306,
+          "nontransparent_pixels": 17633,
           "bbox": [
-            32,
-            12,
-            160,
-            199
+            23,
+            5,
+            169,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 134
         },
         {
           "index": 5,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\idle\\05.png",
+          "file": "frames\\idle\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14245,
+          "nontransparent_pixels": 16299,
           "bbox": [
-            31,
-            12,
-            160,
-            199
+            28,
+            5,
+            163,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 116
         }
       ]
     },
@@ -120,130 +122,130 @@
       "state": "running-right",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": null,
+      "extraction_method": "components",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-right\\00.png",
+          "file": "frames\\running-right\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15944,
+          "nontransparent_pixels": 14855,
           "bbox": [
+            24,
             5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 244
+        },
+        {
+          "index": 1,
+          "file": "frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14337,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 232
+        },
+        {
+          "index": 2,
+          "file": "frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14085,
+          "bbox": [
             20,
-            187,
-            188
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 248
+        },
+        {
+          "index": 3,
+          "file": "frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16904,
+          "bbox": [
+            11,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 263
+        },
+        {
+          "index": 4,
+          "file": "frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15389,
+          "bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 277
+        },
+        {
+          "index": 5,
+          "file": "frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14200,
+          "bbox": [
+            18,
+            5,
+            173,
+            203
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 269
         },
         {
-          "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-right\\01.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 14312,
-          "bbox": [
-            5,
-            26,
-            187,
-            182
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 231
-        },
-        {
-          "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-right\\02.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 17010,
-          "bbox": [
-            5,
-            13,
-            187,
-            194
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 321
-        },
-        {
-          "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-right\\03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 16814,
-          "bbox": [
-            5,
-            12,
-            187,
-            195
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 314
-        },
-        {
-          "index": 4,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-right\\04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 14735,
-          "bbox": [
-            5,
-            21,
-            187,
-            187
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 226
-        },
-        {
-          "index": 5,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-right\\05.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 14320,
-          "bbox": [
-            5,
-            25,
-            187,
-            183
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 197
-        },
-        {
           "index": 6,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-right\\06.png",
+          "file": "frames\\running-right\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16694,
+          "nontransparent_pixels": 14098,
           "bbox": [
+            19,
             5,
-            13,
-            187,
-            195
+            172,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 325
+          "chroma_adjacent_pixels": 253
         },
         {
           "index": 7,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-right\\07.png",
+          "file": "frames\\running-right\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16392,
+          "nontransparent_pixels": 16833,
           "bbox": [
+            10,
             5,
-            13,
-            187,
-            194
+            181,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 292
+          "chroma_adjacent_pixels": 306
         }
       ]
     },
@@ -258,123 +260,123 @@
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-left\\00.png",
+          "file": "frames\\running-left\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15944,
+          "nontransparent_pixels": 16332,
           "bbox": [
+            18,
             5,
-            20,
-            187,
-            188
+            173,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 269
+          "chroma_adjacent_pixels": 319
         },
         {
           "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-left\\01.png",
+          "file": "frames\\running-left\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14312,
+          "nontransparent_pixels": 15179,
           "bbox": [
+            17,
             5,
-            26,
-            187,
-            182
+            174,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 231
+          "chroma_adjacent_pixels": 259
         },
         {
           "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-left\\02.png",
+          "file": "frames\\running-left\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17010,
+          "nontransparent_pixels": 15566,
           "bbox": [
+            16,
             5,
-            13,
-            187,
-            194
+            176,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 321
+          "chroma_adjacent_pixels": 273
         },
         {
           "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-left\\03.png",
+          "file": "frames\\running-left\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16814,
+          "nontransparent_pixels": 15952,
           "bbox": [
+            19,
             5,
-            12,
-            187,
-            195
+            172,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 314
+          "chroma_adjacent_pixels": 279
         },
         {
           "index": 4,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-left\\04.png",
+          "file": "frames\\running-left\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15003,
+          "nontransparent_pixels": 16251,
           "bbox": [
+            18,
             5,
-            20,
-            187,
-            188
+            173,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 248
+          "chroma_adjacent_pixels": 293
         },
         {
           "index": 5,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-left\\05.png",
+          "file": "frames\\running-left\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14320,
+          "nontransparent_pixels": 15203,
           "bbox": [
+            17,
             5,
-            25,
-            187,
-            183
+            174,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 197
+          "chroma_adjacent_pixels": 275
         },
         {
           "index": 6,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-left\\06.png",
+          "file": "frames\\running-left\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15446,
+          "nontransparent_pixels": 15658,
           "bbox": [
+            16,
             5,
-            17,
-            187,
-            191
+            176,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 292
+          "chroma_adjacent_pixels": 296
         },
         {
           "index": 7,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running-left\\07.png",
+          "file": "frames\\running-left\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16392,
+          "nontransparent_pixels": 15910,
           "bbox": [
+            19,
             5,
-            13,
-            187,
-            194
+            172,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 292
+          "chroma_adjacent_pixels": 278
         }
       ]
     },
@@ -382,14 +384,14 @@
       "state": "waving",
       "expected_frames": 4,
       "actual_frames": 4,
-      "extraction_method": null,
+      "extraction_method": "components",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waving\\00.png",
+          "file": "frames\\waving\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16063,
@@ -404,7 +406,7 @@
         },
         {
           "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waving\\01.png",
+          "file": "frames\\waving\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15448,
@@ -419,7 +421,7 @@
         },
         {
           "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waving\\02.png",
+          "file": "frames\\waving\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15340,
@@ -434,7 +436,7 @@
         },
         {
           "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waving\\03.png",
+          "file": "frames\\waving\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15441,
@@ -453,14 +455,16 @@
       "state": "jumping",
       "expected_frames": 5,
       "actual_frames": 5,
-      "extraction_method": null,
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "jumping used extraction method stable-slots; component extraction is preferred"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\jumping\\00.png",
+          "file": "frames\\jumping\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 9119,
@@ -475,7 +479,7 @@
         },
         {
           "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\jumping\\01.png",
+          "file": "frames\\jumping\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 10122,
@@ -490,7 +494,7 @@
         },
         {
           "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\jumping\\02.png",
+          "file": "frames\\jumping\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 10619,
@@ -505,7 +509,7 @@
         },
         {
           "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\jumping\\03.png",
+          "file": "frames\\jumping\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 11387,
@@ -520,7 +524,7 @@
         },
         {
           "index": 4,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\jumping\\04.png",
+          "file": "frames\\jumping\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 9149,
@@ -539,14 +543,14 @@
       "state": "failed",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": null,
+      "extraction_method": "components",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\failed\\00.png",
+          "file": "frames\\failed\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 11809,
@@ -561,7 +565,7 @@
         },
         {
           "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\failed\\01.png",
+          "file": "frames\\failed\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 11775,
@@ -576,7 +580,7 @@
         },
         {
           "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\failed\\02.png",
+          "file": "frames\\failed\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 11996,
@@ -591,7 +595,7 @@
         },
         {
           "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\failed\\03.png",
+          "file": "frames\\failed\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 12458,
@@ -606,7 +610,7 @@
         },
         {
           "index": 4,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\failed\\04.png",
+          "file": "frames\\failed\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 12068,
@@ -621,7 +625,7 @@
         },
         {
           "index": 5,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\failed\\05.png",
+          "file": "frames\\failed\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 12105,
@@ -636,7 +640,7 @@
         },
         {
           "index": 6,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\failed\\06.png",
+          "file": "frames\\failed\\06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 11973,
@@ -651,7 +655,7 @@
         },
         {
           "index": 7,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\failed\\07.png",
+          "file": "frames\\failed\\07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 11928,
@@ -670,14 +674,14 @@
       "state": "waiting",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": null,
+      "extraction_method": "components",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waiting\\00.png",
+          "file": "frames\\waiting\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16062,
@@ -692,7 +696,7 @@
         },
         {
           "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waiting\\01.png",
+          "file": "frames\\waiting\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17578,
@@ -707,7 +711,7 @@
         },
         {
           "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waiting\\02.png",
+          "file": "frames\\waiting\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15523,
@@ -722,7 +726,7 @@
         },
         {
           "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waiting\\03.png",
+          "file": "frames\\waiting\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16398,
@@ -737,7 +741,7 @@
         },
         {
           "index": 4,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waiting\\04.png",
+          "file": "frames\\waiting\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15754,
@@ -752,7 +756,7 @@
         },
         {
           "index": 5,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\waiting\\05.png",
+          "file": "frames\\waiting\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16038,
@@ -771,100 +775,100 @@
       "state": "running",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": null,
+      "extraction_method": "components",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running\\00.png",
+          "file": "frames\\running\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13460,
+          "nontransparent_pixels": 14371,
           "bbox": [
-            34,
+            30,
             5,
-            157,
+            161,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 158
+          "chroma_adjacent_pixels": 82
         },
         {
           "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running\\01.png",
+          "file": "frames\\running\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13109,
+          "nontransparent_pixels": 12742,
           "bbox": [
-            32,
+            38,
             5,
-            159,
+            154,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 133
+          "chroma_adjacent_pixels": 86
         },
         {
           "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running\\02.png",
+          "file": "frames\\running\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12955,
+          "nontransparent_pixels": 11650,
           "bbox": [
-            31,
-            5,
-            160,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 136
-        },
-        {
-          "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running\\03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 10298,
-          "bbox": [
-            39,
+            40,
             5,
             152,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 84
+          "chroma_adjacent_pixels": 70
+        },
+        {
+          "index": 3,
+          "file": "frames\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14299,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 103
         },
         {
           "index": 4,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running\\04.png",
+          "file": "frames\\running\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12999,
+          "nontransparent_pixels": 13238,
           "bbox": [
-            31,
+            25,
             5,
-            160,
+            166,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 155
+          "chroma_adjacent_pixels": 102
         },
         {
           "index": 5,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\running\\05.png",
+          "file": "frames\\running\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13192,
+          "nontransparent_pixels": 14513,
           "bbox": [
-            31,
+            38,
             5,
-            160,
+            154,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 125
+          "chroma_adjacent_pixels": 104
         }
       ]
     },
@@ -872,14 +876,14 @@
       "state": "review",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": null,
+      "extraction_method": "components",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\review\\00.png",
+          "file": "frames\\review\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 13714,
@@ -894,7 +898,7 @@
         },
         {
           "index": 1,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\review\\01.png",
+          "file": "frames\\review\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 11968,
@@ -909,7 +913,7 @@
         },
         {
           "index": 2,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\review\\02.png",
+          "file": "frames\\review\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 10457,
@@ -924,7 +928,7 @@
         },
         {
           "index": 3,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\review\\03.png",
+          "file": "frames\\review\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 10390,
@@ -939,7 +943,7 @@
         },
         {
           "index": 4,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\review\\04.png",
+          "file": "frames\\review\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 10016,
@@ -954,7 +958,7 @@
         },
         {
           "index": 5,
-          "file": "E:\\chatgpt\\morgana-pet-v2\\revisions\\remaining-motion-v1\\frames\\review\\05.png",
+          "file": "frames\\review\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 13661,
@@ -969,5 +973,6 @@
         }
       ]
     }
-  ]
+  ],
+  "build_intermediate_retained": false
 }

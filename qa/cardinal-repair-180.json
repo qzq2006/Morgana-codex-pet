@@ -1,8 +1,0 @@
-{
-  "direction": "180",
-  "reason": "Initial anchor was too close to neutral/front and failed independent semantic QA.",
-  "repair": "Regenerated a single down-looking Morgana anchor with pupils at the lower eye edges, lowered eyelids, bowed head and muzzle, and relaxed ears while preserving the foot baseline.",
-  "output": "decoded/look-anchors/180.png",
-  "independent_qa": "pass",
-  "evidence": "Both pupils sit at the lower eye edges with a lowered muzzle and bowed head; identity, scale, body center, and foot baseline remain compatible with the other anchors."
-}

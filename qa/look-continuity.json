@@ -11,14 +11,16 @@
     "112.5 has transparent interior hole rows (y=114, y=115, y=116, y=117, +7 more)",
     "135 has transparent interior hole rows (y=114, y=115, y=116, y=117, +6 more)",
     "157.5 has transparent interior hole rows (y=118, y=119, y=120, y=188, +9 more)",
-    "180 has transparent interior hole rows (y=28, y=29, y=193, y=194, +3 more)",
-    "202.5 has transparent interior hole rows (y=192, y=193, y=194, y=195, +2 more)",
-    "225 has transparent interior hole rows (y=192, y=193, y=194, y=195, +2 more)",
-    "247.5 has transparent interior hole rows (y=192, y=193, y=194, y=195, +2 more)",
-    "270 has transparent interior hole rows (y=191, y=192, y=193, y=194, +3 more)",
-    "292.5 has transparent interior hole rows (y=191, y=192, y=193, y=194, +3 more)",
-    "315 has transparent interior hole rows (y=188, y=189, y=190, y=191, +6 more)",
-    "337.5 has transparent interior hole rows (y=188, y=189, y=190, y=191, +6 more)"
+    "180 has transparent interior hole rows (y=32, y=33, y=197, y=198, +3 more)",
+    "202.5 has transparent interior hole rows (y=196, y=197, y=198, y=199, +2 more)",
+    "225 has transparent interior hole rows (y=196, y=197, y=198, y=199, +2 more)",
+    "247.5 has transparent interior hole rows (y=196, y=197, y=198, y=199, +2 more)",
+    "270 has transparent interior hole rows (y=195, y=196, y=197, y=198, +3 more)",
+    "292.5 has transparent interior hole rows (y=195, y=196, y=197, y=198, +3 more)",
+    "315 has transparent interior hole rows (y=192, y=193, y=194, y=195, +6 more)",
+    "337.5 has transparent interior hole rows (y=192, y=193, y=194, y=195, +6 more)",
+    "157.5->180 diff is a local outlier (4169 pixels vs neighbor average 2498)",
+    "337.5->000 diff is a local outlier (4396 pixels vs neighbor average 2454)"
   ],
   "alphaHoles": [
     {
@@ -645,37 +647,37 @@
       "direction": "180",
       "holes": [
         {
-          "row": 28,
+          "row": 32,
           "transparentPixels": 71,
           "spanPixels": 118
         },
         {
-          "row": 29,
+          "row": 33,
           "transparentPixels": 44,
           "spanPixels": 118
         },
         {
-          "row": 193,
+          "row": 197,
           "transparentPixels": 33,
           "spanPixels": 74
         },
         {
-          "row": 194,
+          "row": 198,
           "transparentPixels": 35,
           "spanPixels": 74
         },
         {
-          "row": 195,
+          "row": 199,
           "transparentPixels": 36,
           "spanPixels": 74
         },
         {
-          "row": 196,
+          "row": 200,
           "transparentPixels": 38,
           "spanPixels": 71
         },
         {
-          "row": 197,
+          "row": 201,
           "transparentPixels": 40,
           "spanPixels": 67
         }
@@ -685,32 +687,32 @@
       "direction": "202.5",
       "holes": [
         {
-          "row": 192,
-          "transparentPixels": 33,
-          "spanPixels": 71
-        },
-        {
-          "row": 193,
-          "transparentPixels": 33,
-          "spanPixels": 72
-        },
-        {
-          "row": 194,
-          "transparentPixels": 35,
-          "spanPixels": 73
-        },
-        {
-          "row": 195,
-          "transparentPixels": 36,
-          "spanPixels": 73
-        },
-        {
           "row": 196,
-          "transparentPixels": 37,
+          "transparentPixels": 33,
           "spanPixels": 71
         },
         {
           "row": 197,
+          "transparentPixels": 33,
+          "spanPixels": 72
+        },
+        {
+          "row": 198,
+          "transparentPixels": 35,
+          "spanPixels": 73
+        },
+        {
+          "row": 199,
+          "transparentPixels": 36,
+          "spanPixels": 73
+        },
+        {
+          "row": 200,
+          "transparentPixels": 37,
+          "spanPixels": 71
+        },
+        {
+          "row": 201,
           "transparentPixels": 39,
           "spanPixels": 67
         }
@@ -720,32 +722,32 @@
       "direction": "225",
       "holes": [
         {
-          "row": 192,
+          "row": 196,
           "transparentPixels": 33,
           "spanPixels": 71
         },
         {
-          "row": 193,
+          "row": 197,
           "transparentPixels": 34,
           "spanPixels": 73
         },
         {
-          "row": 194,
+          "row": 198,
           "transparentPixels": 34,
           "spanPixels": 73
         },
         {
-          "row": 195,
+          "row": 199,
           "transparentPixels": 36,
           "spanPixels": 72
         },
         {
-          "row": 196,
+          "row": 200,
           "transparentPixels": 38,
           "spanPixels": 70
         },
         {
-          "row": 197,
+          "row": 201,
           "transparentPixels": 40,
           "spanPixels": 66
         }
@@ -755,32 +757,32 @@
       "direction": "247.5",
       "holes": [
         {
-          "row": 192,
+          "row": 196,
           "transparentPixels": 33,
           "spanPixels": 72
         },
         {
-          "row": 193,
+          "row": 197,
           "transparentPixels": 33,
           "spanPixels": 73
         },
         {
-          "row": 194,
+          "row": 198,
           "transparentPixels": 34,
           "spanPixels": 73
         },
         {
-          "row": 195,
+          "row": 199,
           "transparentPixels": 35,
           "spanPixels": 72
         },
         {
-          "row": 196,
+          "row": 200,
           "transparentPixels": 37,
           "spanPixels": 71
         },
         {
-          "row": 197,
+          "row": 201,
           "transparentPixels": 39,
           "spanPixels": 67
         }
@@ -790,37 +792,37 @@
       "direction": "270",
       "holes": [
         {
-          "row": 191,
+          "row": 195,
           "transparentPixels": 33,
           "spanPixels": 70
         },
         {
-          "row": 192,
+          "row": 196,
           "transparentPixels": 33,
           "spanPixels": 72
         },
         {
-          "row": 193,
+          "row": 197,
           "transparentPixels": 33,
           "spanPixels": 72
         },
         {
-          "row": 194,
+          "row": 198,
           "transparentPixels": 35,
           "spanPixels": 73
         },
         {
-          "row": 195,
+          "row": 199,
           "transparentPixels": 37,
           "spanPixels": 72
         },
         {
-          "row": 196,
+          "row": 200,
           "transparentPixels": 38,
           "spanPixels": 71
         },
         {
-          "row": 197,
+          "row": 201,
           "transparentPixels": 40,
           "spanPixels": 67
         }
@@ -830,37 +832,37 @@
       "direction": "292.5",
       "holes": [
         {
-          "row": 191,
+          "row": 195,
           "transparentPixels": 33,
           "spanPixels": 70
         },
         {
-          "row": 192,
+          "row": 196,
           "transparentPixels": 33,
           "spanPixels": 72
         },
         {
-          "row": 193,
+          "row": 197,
           "transparentPixels": 34,
           "spanPixels": 72
         },
         {
-          "row": 194,
+          "row": 198,
           "transparentPixels": 35,
           "spanPixels": 73
         },
         {
-          "row": 195,
+          "row": 199,
           "transparentPixels": 36,
           "spanPixels": 72
         },
         {
-          "row": 196,
+          "row": 200,
           "transparentPixels": 38,
           "spanPixels": 71
         },
         {
-          "row": 197,
+          "row": 201,
           "transparentPixels": 40,
           "spanPixels": 67
         }
@@ -870,52 +872,52 @@
       "direction": "315",
       "holes": [
         {
-          "row": 188,
+          "row": 192,
           "transparentPixels": 33,
           "spanPixels": 64
         },
         {
-          "row": 189,
+          "row": 193,
           "transparentPixels": 34,
           "spanPixels": 67
         },
         {
-          "row": 190,
+          "row": 194,
           "transparentPixels": 34,
           "spanPixels": 70
         },
         {
-          "row": 191,
+          "row": 195,
           "transparentPixels": 34,
           "spanPixels": 72
         },
         {
-          "row": 192,
+          "row": 196,
           "transparentPixels": 34,
           "spanPixels": 73
         },
         {
-          "row": 193,
+          "row": 197,
           "transparentPixels": 35,
           "spanPixels": 75
         },
         {
-          "row": 194,
+          "row": 198,
           "transparentPixels": 36,
           "spanPixels": 75
         },
         {
-          "row": 195,
+          "row": 199,
           "transparentPixels": 38,
           "spanPixels": 74
         },
         {
-          "row": 196,
+          "row": 200,
           "transparentPixels": 39,
           "spanPixels": 72
         },
         {
-          "row": 197,
+          "row": 201,
           "transparentPixels": 41,
           "spanPixels": 67
         }
@@ -925,52 +927,52 @@
       "direction": "337.5",
       "holes": [
         {
-          "row": 188,
+          "row": 192,
           "transparentPixels": 34,
           "spanPixels": 65
         },
         {
-          "row": 189,
+          "row": 193,
           "transparentPixels": 34,
           "spanPixels": 67
         },
         {
-          "row": 190,
+          "row": 194,
           "transparentPixels": 34,
           "spanPixels": 71
         },
         {
-          "row": 191,
-          "transparentPixels": 34,
-          "spanPixels": 73
-        },
-        {
-          "row": 192,
-          "transparentPixels": 34,
-          "spanPixels": 73
-        },
-        {
-          "row": 193,
-          "transparentPixels": 35,
-          "spanPixels": 75
-        },
-        {
-          "row": 194,
-          "transparentPixels": 37,
-          "spanPixels": 76
-        },
-        {
           "row": 195,
-          "transparentPixels": 38,
-          "spanPixels": 75
+          "transparentPixels": 34,
+          "spanPixels": 73
         },
         {
           "row": 196,
-          "transparentPixels": 40,
+          "transparentPixels": 34,
           "spanPixels": 73
         },
         {
           "row": 197,
+          "transparentPixels": 35,
+          "spanPixels": 75
+        },
+        {
+          "row": 198,
+          "transparentPixels": 37,
+          "spanPixels": 76
+        },
+        {
+          "row": 199,
+          "transparentPixels": 38,
+          "spanPixels": 75
+        },
+        {
+          "row": 200,
+          "transparentPixels": 40,
+          "spanPixels": 73
+        },
+        {
+          "row": 201,
           "transparentPixels": 42,
           "spanPixels": 69
         }
@@ -1046,8 +1048,8 @@
       "to": "180",
       "firstPixels": 13272,
       "secondPixels": 14450,
-      "diffPixels": 3407,
-      "centerDelta": 2.5495097567963922,
+      "diffPixels": 4169,
+      "centerDelta": 6.96419413859206,
       "areaRatio": 1.0887582881253768
     },
     {
@@ -1055,8 +1057,8 @@
       "to": "202.5",
       "firstPixels": 14450,
       "secondPixels": 13823,
-      "diffPixels": 2372,
-      "centerDelta": 5.830951894845301,
+      "diffPixels": 2562,
+      "centerDelta": 5.385164807134504,
       "areaRatio": 1.0453591839687477
     },
     {
@@ -1064,8 +1066,8 @@
       "to": "225",
       "firstPixels": 13823,
       "secondPixels": 13367,
-      "diffPixels": 2036,
-      "centerDelta": 2.5,
+      "diffPixels": 1965,
+      "centerDelta": 2.0615528128088303,
       "areaRatio": 1.0341138624971946
     },
     {
@@ -1109,8 +1111,8 @@
       "to": "337.5",
       "firstPixels": 13663,
       "secondPixels": 13662,
-      "diffPixels": 2315,
-      "centerDelta": 1.0,
+      "diffPixels": 2159,
+      "centerDelta": 0.0,
       "areaRatio": 1.0000731957253697
     },
     {
@@ -1118,8 +1120,8 @@
       "to": "000",
       "firstPixels": 13662,
       "secondPixels": 14871,
-      "diffPixels": 3129,
-      "centerDelta": 1.118033988749895,
+      "diffPixels": 4396,
+      "centerDelta": 4.031128874149275,
       "areaRatio": 1.0884936319718927
     }
   ]

@@ -1,11 +1,19 @@
 {
   "visual_qa": "pass",
+  "reviewed_by": "independent_visual_qa",
+  "repair_rows": [],
   "repair_notes": [],
+  "qa_note": "11 行 Codex Pet v2、四个最新动作、其余循环与 16 个观察方向均无可见重大缺陷；身份、比例、附件及透明背景稳定。",
   "evidence": [
-    "Rows 0-4 and 6 preserve the original Morgana frames pixel-identically.",
-    "Zorro appears only in failed, running, and review.",
-    "Zorro retains the user-supplied official giant inverted-triangle silhouette, huge puff sleeves and fists, silver beaked yellow-eyed mask, thin legs, wing-like cape, ornate waist, and rapier.",
-    "Running reads as summon into sword strike; review as restrained sword presentation; failed as physical folding and disappearance.",
-    "The Morgana-only v2 look loop is coherent, identity-stable, and passes all four cardinal hard gates."
+    "idle 的呼吸、眨眼、耳朵、尾巴和围巾形成低干扰错相循环。",
+    "running-right 与 running-left 具有连续的触地、下压、蹬地和腾空节奏，两臂两爪完整。",
+    "非方向 running 保持 Codex active-work 语义，Zorro 的蓄力、剑击、回弹有力量且每帧仅有一把连续连接的剑。",
+    "其余标准状态无身份漂移、裁切、空帧、跨槽残片或背景回归。",
+    "16 个观察方向的四个基准方向全部通过；中间方向 warning 均为次轴提示较弱，无错误象限或循环反转。",
+    "continuity 中报告的透明跨度为耳朵、四肢、尾巴等结构之间的自然负空间。"
+  ],
+  "review_warnings": [
+    "022.5、067.5、112.5、135、202.5、292.5 的次轴方向提示较弱，但主方向、象限与循环顺序正确。",
+    "jumping 使用 stable-slots 拆帧；最终 GIF 无比例跳变、裁切或错误状态语义。"
   ]
 }
