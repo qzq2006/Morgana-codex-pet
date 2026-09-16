@@ -3,10 +3,10 @@
   "reviewed_by": "independent_visual_qa",
   "repair_rows": [],
   "repair_notes": [],
-  "qa_note": "11 行 Codex Pet v2、四个最新动作、其余循环与 16 个观察方向均无可见重大缺陷；身份、比例、附件及透明背景稳定。",
+  "qa_note": "11 行 Codex Pet v2 已复检；左右跑步共用同一套标准步态并逐帧镜像，游离的重复手爪碎片已移除，四肢交替与循环闭合稳定。",
   "evidence": [
     "idle 的呼吸、眨眼、耳朵、尾巴和围巾形成低干扰错相循环。",
-    "running-right 与 running-left 具有连续的触地、下压、蹬地和腾空节奏，两臂两爪完整。",
+    "running-right 与 running-left 为严格镜像的 8 帧步态；每帧恰好两条连贯手臂与两条腿，无游离手爪碎片，触地-下压-蹬地-腾空相位连续。",
     "非方向 running 保持 Codex active-work 语义，Zorro 的蓄力、剑击、回弹有力量且每帧仅有一把连续连接的剑。",
     "其余标准状态无身份漂移、裁切、空帧、跨槽残片或背景回归。",
     "16 个观察方向的四个基准方向全部通过；中间方向 warning 均为次轴提示较弱，无错误象限或循环反转。",

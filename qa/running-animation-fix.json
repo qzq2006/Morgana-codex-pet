@@ -1,0 +1,201 @@
+{
+  "ok": true,
+  "fix": "Canonical left-facing gait stabilized, detached white paw slivers removed, running-right rebuilt as an exact per-frame mirror.",
+  "removed_fragments": [
+    {
+      "frame": 0,
+      "size": 52,
+      "bbox": [
+        58,
+        138,
+        66,
+        150
+      ]
+    },
+    {
+      "frame": 0,
+      "size": 1,
+      "bbox": [
+        66,
+        149,
+        66,
+        149
+      ]
+    },
+    {
+      "frame": 0,
+      "size": 1,
+      "bbox": [
+        112,
+        181,
+        112,
+        181
+      ]
+    },
+    {
+      "frame": 1,
+      "size": 1,
+      "bbox": [
+        48,
+        162,
+        48,
+        162
+      ]
+    },
+    {
+      "frame": 1,
+      "size": 1,
+      "bbox": [
+        51,
+        162,
+        51,
+        162
+      ]
+    },
+    {
+      "frame": 2,
+      "size": 74,
+      "bbox": [
+        59,
+        137,
+        68,
+        151
+      ]
+    },
+    {
+      "frame": 2,
+      "size": 1,
+      "bbox": [
+        33,
+        145,
+        33,
+        145
+      ]
+    },
+    {
+      "frame": 4,
+      "size": 55,
+      "bbox": [
+        59,
+        139,
+        66,
+        151
+      ]
+    },
+    {
+      "frame": 5,
+      "size": 1,
+      "bbox": [
+        51,
+        162,
+        51,
+        162
+      ]
+    },
+    {
+      "frame": 6,
+      "size": 72,
+      "bbox": [
+        59,
+        138,
+        68,
+        150
+      ]
+    },
+    {
+      "frame": 6,
+      "size": 8,
+      "bbox": [
+        63,
+        152,
+        66,
+        155
+      ]
+    },
+    {
+      "frame": 7,
+      "size": 1,
+      "bbox": [
+        85,
+        201,
+        85,
+        201
+      ]
+    }
+  ],
+  "atlas_sha256": "07BDDDDA6E22306D246A6A5023799DDB99613C684304F72035F95ACE0D89B015",
+  "frame_size": [
+    192,
+    208
+  ],
+  "frames_per_direction": 8,
+  "preview_frame_duration_ms": 90,
+  "preview_loop": 0,
+  "limp_rule": "exactly two paws and two feet per frame, no detached white fragment",
+  "loop_phases": [
+    "contact",
+    "absorption",
+    "passing",
+    "flight",
+    "opposite contact",
+    "opposite absorption",
+    "opposite passing",
+    "opposite flight"
+  ],
+  "per_direction": {
+    "running-right": {
+      "stray_fragments": 0,
+      "limb_paw_blobs_per_frame": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "loop_iou_per_step": [
+        0.7698,
+        0.7937,
+        0.79,
+        0.8165,
+        0.775,
+        0.796,
+        0.794,
+        0.8222
+      ],
+      "loop_iou_mean": 0.7947,
+      "loop_iou_min": 0.7698,
+      "loop_wrap_7_to_0": 0.8222,
+      "is_mirror_of_other": true
+    },
+    "running-left": {
+      "stray_fragments": 0,
+      "limb_paw_blobs_per_frame": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "loop_iou_per_step": [
+        0.7698,
+        0.7937,
+        0.79,
+        0.8165,
+        0.775,
+        0.796,
+        0.794,
+        0.8222
+      ],
+      "loop_iou_mean": 0.7947,
+      "loop_iou_min": 0.7698,
+      "loop_wrap_7_to_0": 0.8222,
+      "is_mirror_of_other": true
+    }
+  }
+}

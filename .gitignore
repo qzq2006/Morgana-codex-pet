@@ -1,2 +1,3 @@
-# Local generation and comparison workspace
 revisions/
+outputs/
+.workbuddy-ai/
