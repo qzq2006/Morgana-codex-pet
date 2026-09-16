@@ -1,4 +1,4 @@
-# Morgana + Zorro Codex Pet v2
+# Morgana Codex Pet 
 
 一个以《女神异闻录 5》摩尔加纳（Morgana）和人格面具 Zorro 为主题的 Codex 桌宠。
 
