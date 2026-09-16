@@ -8,13 +8,22 @@ Identity: same pet in every frame: Preserve the existing Morgana pet identity ex
 Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `auto`: Infer the most appropriate pet-safe style from the user request and reference images, then keep that exact style consistent across every row. User style notes: Match the current clean non-pixel chibi Morgana sprites: black, white, bright blue eyes, yellow scarf, crisp hard-edged forms readable at 59x64..
 Animation continuity: keep apparent pet scale and baseline stable within the row unless the state itself intentionally changes vertical position, such as `jumping`. Move the pose within the slot instead of redrawing the pet larger or smaller frame to frame.
 
-State action: Calm low-distraction resting loop: subtle breathing, tiny blink, slight head/body bob, and only quiet persona-preserving motion.
+State action: Calm but visibly alive low-distraction resting loop: layered breathing, one natural blink, a tiny asymmetric ear response, and delayed tail/scarf follow-through.
 
 State requirements:
 - CRITICAL: idle is the low-distraction baseline state and the first frame is also used as the reduced-motion static pet.
-- Use only subtle idle motion: gentle breathing, a tiny blink, a slight head or body bob, a very small material sway, or another quiet motion that fits the pet persona.
+- Use only subtle idle motion, but make the micro-motion readable at pet size. Chest and shoulders rise and fall by about 2-3 pixels while the planted feet remain fixed.
 - Keep the pet essentially in the same pose, facing direction, silhouette, markings, palette, and prop state across all 6 frames.
 - Idle variation must stay calm but still read as animation; do not repeat effectively identical copies across the loop.
+- Six-frame performance, left to right:
+  - Frame 1: neutral planted pose at the start of an inhale, eyes open.
+  - Frame 2: chest and head rise slightly; tail begins to follow one phase late.
+  - Frame 3: top of inhale with a half blink and one ear dipping only a tiny amount.
+  - Frame 4: eyes briefly closed, shoulders beginning to exhale; the ear is already recovering.
+  - Frame 5: body settles lower while the tail and scarf tips gently overshoot in the opposite direction.
+  - Frame 6: eyes open and pose returns close to Frame 1, with only a tiny residual tail/scarf lag so the loop closes smoothly.
+- Keep the head response slightly later than the chest, and keep the tail and scarf one phase later than the body. Their motion should form a soft delayed S-curve instead of flipping direction together.
+- Preserve Morgana's two simple ears, two attached arms and white paws, planted feet, clean curved tail, and two yellow scarf tips in every frame.
 - Do not show waving, walking, running, jumping, talking, working, reviewing, emotional reactions, large gestures, item interactions, or new props.
 - Feet, base, body, or object anchor should remain planted or nearly planted.
 - The first and last frames should be very close visually so the loop feels calm and does not pop.

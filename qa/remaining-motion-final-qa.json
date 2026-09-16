@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "repair_rows": [],
+  "review_scope": [
+    "running-right",
+    "running-left",
+    "waving",
+    "waiting"
+  ],
+  "notes": [
+    "Morgana identity, palette, scale, and foot baseline remain stable.",
+    "Right- and left-running directions are correct and use alternating extended/compressed gait poses.",
+    "Waving follows a natural low-middle-high-middle loop without body drift.",
+    "Waiting uses an open-paw request, head tilt, and return pose to remain distinct from idle.",
+    "Zorro remains intentionally present only in the established failed, running, and review persona rows.",
+    "The extended atlas is a complete 8x11 spriteVersionNumber 2 sheet and passed structural validation without errors or warnings."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "revision": "motion-natural-power-v1",
+  "reviewed_states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "running"
+  ],
+  "checks": {
+    "idle_layered_micro_motion": "pass",
+    "idle_loop_boundary": "pass",
+    "directional_gait_phases": "pass",
+    "directional_contact_foot_stability": "pass",
+    "directional_two_arm_two_paw_visibility": "pass",
+    "active_work_semantics": "pass",
+    "active_work_power_arc": "pass",
+    "single_connected_rapier": "pass",
+    "detached_motion_effects": "none",
+    "extended_atlas_validation": "pass",
+    "installed_package_hash_match": true
+  },
+  "repair_history": {
+    "initial_running_candidate": "failed_for_two_detached_diagonal_lines_in_frame_5",
+    "full_row_regeneration": "pass"
+  },
+  "atlas": {
+    "sprite_version_number": 2,
+    "columns": 8,
+    "rows": 11,
+    "width": 1536,
+    "height": 2288,
+    "sha256": "851FA386B9D6CCCDAC0605F7849E5D276BB489605348367AF136B05B936E3EBA"
+  }
+}

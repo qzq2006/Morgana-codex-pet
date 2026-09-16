@@ -11,14 +11,14 @@
     "rows": 11,
     "cell_width": 192,
     "cell_height": 208,
-    "sha256": "00C4BBF49FE0917FCA260F42F76AD3ADD01B15978D06333C2ADBE9C97E97DD6B"
+    "sha256": "851FA386B9D6CCCDAC0605F7849E5D276BB489605348367AF136B05B936E3EBA"
   },
   "official_zorro_reference": {
     "path": "references/official-zorro.png",
     "sha256": "896243AF3DA5A9F941DA31A7F321A4B01E790BA61FB964A443AE46CF83798FC8"
   },
-  "changed_standard_states": ["failed", "running", "review"],
-  "preserved_standard_states": ["idle", "running-right", "running-left", "waving", "jumping", "waiting"],
+  "changed_standard_states": ["idle", "running-right", "running-left", "running"],
+  "preserved_standard_states": ["waving", "jumping", "failed", "waiting", "review"],
   "qa": {
     "atlas_validation": "pass",
     "persona_row_structure": "pass",
@@ -26,6 +26,11 @@
     "cardinal_hard_gates": "pass",
     "direction_blind_validation": "pass_with_documented_minor_intermediate_warnings",
     "continuity": "pass_with_intentional_negative-space_resolution",
-    "final_visual_qa": "pass"
+    "final_visual_qa": "pass_after_full_running_row_repair",
+    "directional_gait_continuity": "pass_contact_absorb_push_flight",
+    "idle_liveliness": "pass_layered_breath_blink_ear_tail_motion",
+    "active_work_power": "pass_connected_single_rapier_force_arc",
+    "running_arm_visibility": "pass_all_16_directional-running_frames",
+    "installed_hash_match": true
   }
 }

@@ -27,9 +27,9 @@
       "id": "idle",
       "kind": "row-strip",
       "status": "complete",
-      "source_path": "F:\\chatgpt\\morgana-pet\\package\\spritesheet.png",
-      "qa_note": "Preserved unchanged from the validated original Morgana atlas.",
-      "completed_at": "2026-09-13T13:10:00+00:00",
+      "source_path": "decoded/idle.png",
+      "qa_note": "Regenerated as a six-frame low-distraction loop with layered breathing, blink, ear response, and delayed tail/scarf follow-through; independent visual QA passed.",
+      "completed_at": "2026-09-16T09:33:03+08:00",
       "prompt_file": "prompts/rows/idle.md",
       "retry_prompt_file": "prompts/row-retries/idle.md",
       "input_images": [
@@ -69,9 +69,9 @@
       "id": "running-right",
       "kind": "row-strip",
       "status": "complete",
-      "source_path": "F:\\chatgpt\\morgana-pet\\package\\spritesheet.png",
-      "qa_note": "Preserved unchanged from the validated original Morgana atlas.",
-      "completed_at": "2026-09-13T13:10:00+00:00",
+      "source_path": "decoded/running-right.png",
+      "qa_note": "Regenerated as an eight-pose right-facing contact-absorb-push-flight gait with stable contact feet, shoulder/pelvis counter-rotation, delayed tail/scarf motion, and two connected arms/two white paws in every frame; independent visual QA passed.",
+      "completed_at": "2026-09-16T09:33:08+08:00",
       "prompt_file": "prompts/rows/running-right.md",
       "retry_prompt_file": "prompts/row-retries/running-right.md",
       "input_images": [
@@ -111,9 +111,9 @@
       "id": "running-left",
       "kind": "row-strip",
       "status": "complete",
-      "source_path": "F:\\chatgpt\\morgana-pet\\package\\spritesheet.png",
-      "qa_note": "Preserved unchanged from the validated original Morgana atlas.",
-      "completed_at": "2026-09-13T13:10:00+00:00",
+      "source_path": "decoded/running-left.png",
+      "qa_note": "Regenerated independently as an eight-pose left-facing contact-absorb-push-flight gait; all frames preserve the rounded two-ear identity, stable contact feet, and two connected arms/two white paws.",
+      "completed_at": "2026-09-16T09:38:29+08:00",
       "prompt_file": "prompts/rows/running-left.md",
       "retry_prompt_file": "prompts/row-retries/running-left.md",
       "input_images": [
@@ -162,15 +162,19 @@
         "derivation": "framewise-horizontal-mirror-preserving-order",
         "requires_explicit_approval": true,
         "fallback_generation_skill": "$imagegen"
+      },
+      "generation_decision": {
+        "generated_independently": true,
+        "reason": "The framewise mirror candidate failed visual QA because frame 0 contained detached slot-edge limb fragments."
       }
     },
     {
       "id": "waving",
       "kind": "row-strip",
       "status": "complete",
-      "source_path": "F:\\chatgpt\\morgana-pet\\package\\spritesheet.png",
-      "qa_note": "Preserved unchanged from the validated original Morgana atlas.",
-      "completed_at": "2026-09-13T13:10:00+00:00",
+      "source_path": "decoded/waving.png",
+      "qa_note": "Regenerated as a planted four-pose low-middle-high-middle wave with stable identity and baseline; independent visual QA passed.",
+      "completed_at": "2026-09-15T12:41:22+00:00",
       "prompt_file": "prompts/rows/waving.md",
       "retry_prompt_file": "prompts/row-retries/waving.md",
       "input_images": [
@@ -302,9 +306,9 @@
       "id": "waiting",
       "kind": "row-strip",
       "status": "complete",
-      "source_path": "F:\\chatgpt\\morgana-pet\\package\\spritesheet.png",
-      "qa_note": "Preserved unchanged from the validated original Morgana atlas.",
-      "completed_at": "2026-09-13T13:10:00+00:00",
+      "source_path": "decoded/waiting.png",
+      "qa_note": "Regenerated as a six-pose open-paw, head-tilt waiting loop distinct from idle; independent visual QA passed.",
+      "completed_at": "2026-09-15T12:41:22+00:00",
       "prompt_file": "prompts/rows/waiting.md",
       "retry_prompt_file": "prompts/row-retries/waiting.md",
       "input_images": [
@@ -344,9 +348,9 @@
       "id": "running",
       "kind": "row-strip",
       "status": "complete",
-      "source_path": "F:\\chatgpt\\morgana-pet\\variants\\morgana-zorro\\decoded\\running.png",
-      "qa_note": "Six slots passed extraction/component QA; official Zorro summon-to-strike identity verified by the row worker.",
-      "completed_at": "2026-09-13T13:06:00+00:00",
+      "source_path": "decoded/running.png",
+      "qa_note": "Full six-frame active-work row regenerated after rejecting a candidate with detached diagonal lines. Final row passed independent QA for forceful anticipation-strike-recoil timing, official Zorro identity, clear foreground Morgana, and exactly one connected rapier per frame.",
+      "completed_at": "2026-09-16T09:49:00+08:00",
       "prompt_file": "prompts/rows/running.md",
       "retry_prompt_file": "prompts/row-retries/running.md",
       "input_images": [

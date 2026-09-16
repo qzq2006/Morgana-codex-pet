@@ -6,54 +6,14 @@
     "threshold": 96.0
   },
   "rows": [
-    {
-      "state": "failed",
-      "frames": [
-        "frames/failed/00.png",
-        "frames/failed/01.png",
-        "frames/failed/02.png",
-        "frames/failed/03.png",
-        "frames/failed/04.png",
-        "frames/failed/05.png",
-        "frames/failed/06.png",
-        "frames/failed/07.png"
-      ],
-      "method": "components"
-    },
-    {
-      "state": "jumping",
-      "frames": [
-        "frames/jumping/00.png",
-        "frames/jumping/01.png",
-        "frames/jumping/02.png",
-        "frames/jumping/03.png",
-        "frames/jumping/04.png"
-      ],
-      "method": "stable-slots"
-    },
-    {
-      "state": "running",
-      "frames": [
-        "frames/running/00.png",
-        "frames/running/01.png",
-        "frames/running/02.png",
-        "frames/running/03.png",
-        "frames/running/04.png",
-        "frames/running/05.png"
-      ],
-      "method": "components"
-    },
-    {
-      "state": "review",
-      "frames": [
-        "frames/review/00.png",
-        "frames/review/01.png",
-        "frames/review/02.png",
-        "frames/review/03.png",
-        "frames/review/04.png",
-        "frames/review/05.png"
-      ],
-      "method": "components"
-    }
+    { "state": "idle", "frame_count": 6, "method": "components", "motion_revision": "layered-breath-blink-ear-tail" },
+    { "state": "running-right", "frame_count": 8, "method": "components", "chroma_key": "#FF00FF", "motion_revision": "contact-absorb-push-flight" },
+    { "state": "running-left", "frame_count": 8, "method": "components", "generated_independently": true, "motion_revision": "contact-absorb-push-flight" },
+    { "state": "waving", "frame_count": 4, "method": "components" },
+    { "state": "jumping", "frame_count": 5, "method": "stable-slots" },
+    { "state": "failed", "frame_count": 8, "method": "components" },
+    { "state": "waiting", "frame_count": 6, "method": "components" },
+    { "state": "running", "frame_count": 6, "method": "components", "motion_revision": "forceful-active-work-single-connected-rapier" },
+    { "state": "review", "frame_count": 6, "method": "components" }
   ]
 }

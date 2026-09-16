@@ -9,5 +9,8 @@ Action: Working loop: focused active-task processing, thinking, typing, scanning
 State requirements:
 - Show the pet actively working or processing, as if running a task: focused posture, busy hands or paws, purposeful bobbing, thinking motion, tool or prop motion only if already part of the pet identity, or other non-locomotion activity.
 - Do not show literal foot-running, jogging, sprinting, treadmill motion, raised knees, long steps, pumping arms, directional travel, speed lines, dust clouds, floor shadows, motion trails, or detached motion effects.
+- Use a six-frame forceful active-work arc: grounded guard, torso coil and sword draw, loaded shoulders, one decisive connected rapier stroke, compressed recoil/follow-through, compact recovery. Keep feet planted and Morgana readable in front.
+- Every rapier blade must be one continuous connected shape from Zorro's hand through its guard to its tip. Exactly one sword per frame. No parallel line, disconnected diagonal, afterimage, slash arc, floating stroke, speed streak, or isolated thin mark anywhere in the row.
+- Power must come only from torso coil, shoulder rotation, weight transfer, compression, and delayed sleeve/cape/scarf/tail follow-through.
 
 One centered complete pose per invisible slot. No text, boxes, guide marks, scenery, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or #FF00FF colors in the pet.

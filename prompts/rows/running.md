@@ -15,15 +15,17 @@ State requirements:
 - Do not show literal foot-running, jogging, sprinting, treadmill motion, raised knees, long steps, pumping arms, directional travel, speed lines, dust clouds, floor shadows, motion trails, or detached motion effects.
 
 Persona Edition action, left to right:
-- Make a quiet closed working loop, not a summon or disappearance sequence. Zorro is already fully present directly behind and overlapping Morgana in every frame.
-- Lock both characters' feet, lower torso, overall scale, and shared center to the same position in all six frames. Keep Zorro's torso, legs, shoulders, and cape nearly stationary.
-- Frame 1: compact ready pose, Zorro's sword held at a low guarded diagonal; Morgana focuses forward.
-- Frame 2: raise only Zorro's sword forearm by about 10 degrees; Morgana's eyes begin tracking it.
-- Frame 3: raise the sword another 10 degrees; add a tiny shoulder follow-through and a one-frame-late scarf/tail response.
-- Frame 4: perform one short controlled diagonal work stroke using the sword arm only; no lunge, scale change, body translation, or silhouette explosion.
-- Frame 5: return through the Frame 3 pose.
-- Frame 6: return through the Frame 2 pose so the transition back to Frame 1 is very small.
-- Preserve Zorro's giant shoulders and fists, tiny beaked yellow-eyed mask, thin long legs, wing-like cape tails, ornate waist, and rapier, but prioritize stable registration and small evenly spaced motion over dramatic action.
-- The six poses must read as A-B-C-D-C-B, with Frame 6 adjacent to Frame 1 and no popping at the loop boundary.
+- Make a forceful but closed active-work loop, not a summon, disappearance, literal run, or directional travel sequence. Zorro is already fully present directly behind and overlapping Morgana in every frame.
+- Keep the shared center and planted feet registered, but allow purposeful upper-body weight transfer: compact anticipation -> loaded draw -> decisive work stroke -> compressed recoil -> controlled follow-through -> recovery.
+- Frame 1: grounded ready pose. Morgana leans forward with focused eyes; Zorro holds the rapier on a low guarded diagonal with shoulders compacted.
+- Frame 2: anticipation. Zorro draws the sword arm and near shoulder back while the torso coils slightly; cape tails and oversized sleeve lag behind. Morgana lowers its center a little, bracing for effort.
+- Frame 3: loaded pose. Zorro's chest and giant shoulders open into a stronger inverted-triangle silhouette, rapier fully prepared, while Morgana's head and scarf lag a fraction behind the body.
+- Frame 4: decisive processing stroke. Zorro drives one forceful controlled diagonal slash or forward rapier extension with clear shoulder-to-elbow-to-wrist sequencing and visible weight transfer, but no step, lunge, travel, scale change, or detached effect. Morgana compresses into the effort rather than remaining passive.
+- Frame 5: impact recoil and follow-through. The sword has crossed the action arc; Zorro's sleeve and wing-like cape tails continue one phase late while the torso begins recovering. Morgana rebounds slightly and keeps a focused expression.
+- Frame 6: compact recovery between Frames 2 and 1. Bring the rapier and shoulders almost back to guard while scarf, tail, sleeve, and cape settle with residual overlap, making the loop boundary smooth.
+- The power must come from pose contrast, torso coil, shoulder rotation, weight transfer, compression, and delayed cloth motion—not speed lines, glow, dust, motion trails, impact flashes, or scenery.
+- Prop-connection hard gate: every visible rapier blade must form one continuous physical shape from Zorro's hand through the guard to the blade tip. Never draw a second blade, parallel streak, disconnected diagonal line, sword afterimage, slash arc, or isolated thin mark anywhere in any slot.
+- Every visible mark must belong to the connected silhouette of Morgana, Zorro, Zorro's single rapier, sleeve, or cape. A floating line or detached fragment is a failed row even if it resembles motion.
+- Preserve Zorro's giant shoulders and fists, tiny beaked yellow-eyed mask, thin long legs, wing-like cape tails, ornate waist, and rapier. Keep Morgana fully recognizable and unobscured enough to remain the foreground pet.
 
 Clean extraction: crisp opaque edges, safe padding, no scenery, text, guide marks, checkerboard, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or chroma-key colors inside the pet.
