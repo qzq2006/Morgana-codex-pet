@@ -11,9 +11,10 @@
 ## 特点
 
 - 更自然的左右跑步循环：触地、下压、蹬地、腾空相位完整，肩胯反向运动，围巾和尾巴延迟跟随。
+- 左右跑步共用同一套规范步态（右向为逐帧水平镜像），因此两个方向的节奏与四肢配合完全一致。
 - 更灵动的待机动作：呼吸、眨眼、轻微耳动，以及错相的尾巴和围巾摆动。
 - 更有力量感的工作状态：Zorro 完成蓄力、剑击、回弹和收势，同时保持 Morgana 在前景清晰可辨。
-- 所有方向跑步帧均保留两条连接的手臂和两只可见白爪。
+- 跑步与待机帧的四肢结构统一：每帧恰好两条连接的手臂（各带白爪）与两条腿，没有游离的重复手爪碎片。
 - 16 个观察方向，支持 Codex Pet v2 的方向响应。
 - 最终图集已经过帧数、透明度、色键残留、尺寸和视觉连续性检查。
 
@@ -70,7 +71,7 @@ pet_request.json  可移植的宠物规格与状态定义
 
 ## 预览
 
-常用动画可以在 `qa/previews` 中单独查看：
+常用动画可以在 `qa/previews` 中单独查看。预览 GIF 使用统一的 90 ms 帧间隔并无限循环，因此循环回到第一帧时不会有额外的停顿：
 
 - [`idle.gif`](qa/previews/idle.gif)
 - [`running-right.gif`](qa/previews/running-right.gif)
@@ -89,9 +90,11 @@ pet_request.json  可移植的宠物规格与状态定义
 - 所有必需状态帧存在，未使用的格子保持透明。
 - 洋红色键像素与边缘污染均低于验证阈值，透明 RGB 残留为 0。
 - 左右跑步、待机和工作循环通过独立逐帧视觉复核。
+- 左右跑步行额外做了逐像素结构校验：每帧肢体白块恒为 4（两手两脚）、游离碎片为 0、轮廓连通块为 1、边缘像素为 0；循环各步的帧间相似度中，`7 → 0` 的接缝步相似度最高，即循环闭合最平滑。
+- 第 0 行与第 3–10 行未受本次跑步修复影响，与上一版图集逐像素一致。
 - `final/spritesheet-extended.webp` 与 `package/spritesheet.webp` 的 SHA-256 一致。
 
-详细结果位于 [`qa/release-audit.json`](qa/release-audit.json)、[`qa/package-validation.json`](qa/package-validation.json) 和 [`qa/final-visual-qa.json`](qa/final-visual-qa.json)。
+详细结果位于 [`qa/release-audit.json`](qa/release-audit.json)、[`qa/package-validation.json`](qa/package-validation.json)、[`qa/final-visual-qa.json`](qa/final-visual-qa.json) 和 [`qa/running-animation-fix.json`](qa/running-animation-fix.json)。
 
 ## 发布说明
 
